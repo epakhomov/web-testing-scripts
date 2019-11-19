@@ -7,7 +7,7 @@ const puppeteer = require('puppeteer');
   await page.type('#Input_Email', 'eugene.pakhomov@contrastsecurity.com')
   await page.type('#Input_Password', '!Password123')
   await page.click('button.btn.btn-primary')
-  await page.screenshot({path: 'example2.png'});
+  //await page.screenshot({path: 'example2.png'});
 
   await browser.close();
 })();
